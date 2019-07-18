@@ -1,0 +1,77 @@
+{
+  "uid" : "4a5f27cae752d028",
+  "name" : "test_mlableclassifier_title_not_null[\\u590f\\u5b63\\u5e38\\u5403\\u516d\\u79cd\\u8c46 \\u5e73\\u5b89\\u8fc7\\u201c\\u82e6\\u590f\\u201d-\\u751f\\u6d3b-\\u751f\\u6d3b]",
+  "fullName" : "test_mlableclassifier.test_mlableclassifier_title_not_null[\\u590f\\u5b63\\u5e38\\u5403\\u516d\\u79cd\\u8c46 \\u5e73\\u5b89\\u8fc7\\u201c\\u82e6\\u590f\\u201d-\\u751f\\u6d3b-\\u751f\\u6d3b]",
+  "historyId" : "262e4e0abb5782e96484b20c7850fcb",
+  "time" : {
+    "start" : 1563440114195,
+    "stop" : 1563440114258,
+    "duration" : 63
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "54863cc054a4fbf8",
+      "name" : "Captured log call",
+      "source" : "54863cc054a4fbf8.txt",
+      "type" : "text/plain",
+      "size" : 201
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "hanying-apabi"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "764-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_mlableclassifier"
+  }, {
+    "name" : "testClass",
+    "value" : "test_mlableclassifier"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_mlableclassifier_title_not_null[\\u590f\\u5b63\\u5e38\\u5403\\u516d\\u79cd\\u8c46 \\u5e73\\u5b89\\u8fc7\\u201c\\u82e6\\u590f\\u201d-\\u751f\\u6d3b-\\u751f\\u6d3b]"
+  }, {
+    "name" : "package",
+    "value" : "test_mlableclassifier"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4a5f27cae752d028.json",
+  "parameterValues" : [ ]
+}

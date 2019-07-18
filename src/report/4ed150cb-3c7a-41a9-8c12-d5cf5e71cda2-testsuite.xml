@@ -1,0 +1,104 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1563440115515" stop="1563440116207">
+  <name>test_postag</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1563440115515" status="passed" stop="1563440115737">
+      <name>test_postag_title_not_null[\u4e0a\u534a\u5e74GDP\u589e\u957f6.3%\u5982\u4f55\u89e3\u8bfb\uff1f\u7edf\u8ba1\u5c40\u7ed9\u51fa\u4e94\u53e5\u6982\u62ec-test2.txt]</name>
+      <attachments>
+        <attachment source="7368a51b-84d8-4d2e-ac27-048f4b55f59d-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440115739" status="passed" stop="1563440115865">
+      <name>test_postag_title_is_null[\u52b3\u52a8\u6cd5]</name>
+      <attachments>
+        <attachment source="fb909b0d-d72c-4fcb-8a8c-3c0a3f68cf58-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440115867" status="passed" stop="1563440116182">
+      <name>test_postag_multi_article</name>
+      <attachments>
+        <attachment source="24842a8b-d5e6-4c57-94bb-c4e5f862e984-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440116183" status="passed" stop="1563440116189">
+      <name>test_postag_multi_article_miss_some_field[datalist0]</name>
+      <attachments>
+        <attachment source="d19805e2-423f-409c-8e3d-498a9e5dd2d3-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440116190" status="passed" stop="1563440116194">
+      <name>test_postag_multi_article_miss_some_field[datalist1]</name>
+      <attachments>
+        <attachment source="beec2ca2-6cba-4df5-b4f4-0edeefdb4a05-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440116196" status="passed" stop="1563440116200">
+      <name>test_postag_multi_article_miss_some_field[datalist2]</name>
+      <attachments>
+        <attachment source="623ec398-b9d1-4a35-b97c-b1571660dc15-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440116202" status="passed" stop="1563440116207">
+      <name>test_postag_multi_article_miss_some_field[datalist3]</name>
+      <attachments>
+        <attachment source="1e1897da-9886-43e0-b9c6-ffe328a3d522-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

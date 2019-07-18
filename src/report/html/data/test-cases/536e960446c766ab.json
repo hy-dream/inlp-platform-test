@@ -1,0 +1,77 @@
+{
+  "uid" : "536e960446c766ab",
+  "name" : "test_mlableclassifier_multi_article",
+  "fullName" : "test_mlableclassifier.test_mlableclassifier_multi_article",
+  "historyId" : "e1c4b22dd82b9ca9d3832daab09f7d45",
+  "time" : {
+    "start" : 1563440114834,
+    "stop" : 1563440114940,
+    "duration" : 106
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bf8e5645150a7397",
+      "name" : "Captured log call",
+      "source" : "bf8e5645150a7397.txt",
+      "type" : "text/plain",
+      "size" : 201
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "hanying-apabi"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "764-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_mlableclassifier"
+  }, {
+    "name" : "testClass",
+    "value" : "test_mlableclassifier"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_mlableclassifier_multi_article"
+  }, {
+    "name" : "package",
+    "value" : "test_mlableclassifier"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "536e960446c766ab.json",
+  "parameterValues" : [ ]
+}

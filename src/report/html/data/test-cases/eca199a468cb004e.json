@@ -1,0 +1,77 @@
+{
+  "uid" : "eca199a468cb004e",
+  "name" : "test_summary_percentage_valid[0.5]",
+  "fullName" : "test_summary.test_summary_percentage_valid[0.5]",
+  "historyId" : "6c5bd464ea55c0d2f8183ac02d55404",
+  "time" : {
+    "start" : 1563440118310,
+    "stop" : 1563440118372,
+    "duration" : 62
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "722e54a792400f8c",
+      "name" : "Captured log call",
+      "source" : "722e54a792400f8c.txt",
+      "type" : "text/plain",
+      "size" : 222
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "hanying-apabi"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "764-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_summary"
+  }, {
+    "name" : "testClass",
+    "value" : "test_summary"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_summary_percentage_valid[0.5]"
+  }, {
+    "name" : "package",
+    "value" : "test_summary"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eca199a468cb004e.json",
+  "parameterValues" : [ ]
+}

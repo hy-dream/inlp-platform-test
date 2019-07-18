@@ -1,0 +1,77 @@
+{
+  "uid" : "14d0765a618673bb",
+  "name" : "test_mlableclassifier_title_not_null[\\u5947\\u666e\\u83f2\\u5c14\\u5fb7\\u7684\\u65b0\\u4f5c\\uff1a\\u67cf\\u6797\\u535a\\u7269\\u9986\\u5c9b\\u7684\\u201c\\u6587\\u5316\\u536b\\u57ce\\u201d-\\u6587\\u5316-\\u6587\\u5316]",
+  "fullName" : "test_mlableclassifier.test_mlableclassifier_title_not_null[\\u5947\\u666e\\u83f2\\u5c14\\u5fb7\\u7684\\u65b0\\u4f5c\\uff1a\\u67cf\\u6797\\u535a\\u7269\\u9986\\u5c9b\\u7684\\u201c\\u6587\\u5316\\u536b\\u57ce\\u201d-\\u6587\\u5316-\\u6587\\u5316]",
+  "historyId" : "b938aef15fe845f5642ca70dff1da30f",
+  "time" : {
+    "start" : 1563440114133,
+    "stop" : 1563440114192,
+    "duration" : 59
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d67babcd7b78dc03",
+      "name" : "Captured log call",
+      "source" : "d67babcd7b78dc03.txt",
+      "type" : "text/plain",
+      "size" : 201
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "hanying-apabi"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "764-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_mlableclassifier"
+  }, {
+    "name" : "testClass",
+    "value" : "test_mlableclassifier"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_mlableclassifier_title_not_null[\\u5947\\u666e\\u83f2\\u5c14\\u5fb7\\u7684\\u65b0\\u4f5c\\uff1a\\u67cf\\u6797\\u535a\\u7269\\u9986\\u5c9b\\u7684\\u201c\\u6587\\u5316\\u536b\\u57ce\\u201d-\\u6587\\u5316-\\u6587\\u5316]"
+  }, {
+    "name" : "package",
+    "value" : "test_mlableclassifier"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "14d0765a618673bb.json",
+  "parameterValues" : [ ]
+}

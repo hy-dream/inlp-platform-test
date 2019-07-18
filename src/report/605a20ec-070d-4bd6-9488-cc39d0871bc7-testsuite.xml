@@ -1,0 +1,202 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1563440116829" stop="1563440117684">
+  <name>test_splitsentence</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1563440116829" status="passed" stop="1563440116888">
+      <name>test_splitsentence_title_not_null[\u8861\u6c34\u4e2d\u5b66:\u6709\u5b66\u6821\u5192\u7528\u8861\u4e2d\u540d\u4e49-test1.txt]</name>
+      <attachments>
+        <attachment source="d22a12b9-50dd-4351-9c85-5ea0fd1a4ea8-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440116911" status="passed" stop="1563440116988">
+      <name>test_splitsentence_title_not_null[\u4e0a\u534a\u5e74GDP\u589e\u957f6.3%\u5982\u4f55\u89e3\u8bfb\uff1f\u7edf\u8ba1\u5c40\u7ed9\u51fa\u4e94\u53e5\u6982\u62ec-test2.txt]</name>
+      <attachments>
+        <attachment source="69509330-3f89-4d60-a337-d6fa50c4171e-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440116993" status="passed" stop="1563440117053">
+      <name>test_splitsentence_title_not_null[\u52a8\u771f\u683c\uff01\u5317\u4eac\u5c06\u8bd5\u70b9\u751f\u6d3b\u5783\u573e\u201c\u4e0d\u5206\u7c7b\u3001\u4e0d\u6536\u8fd0\u201d-test3.txt]</name>
+      <attachments>
+        <attachment source="336fb8c3-82eb-45c2-864c-491dd8006c52-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440117057" status="passed" stop="1563440117112">
+      <name>test_splitsentence_title_is_null[\u5fae\u535a1]</name>
+      <attachments>
+        <attachment source="82f23b9b-b532-4fa9-858d-0705a1b77f68-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440117114" status="passed" stop="1563440117171">
+      <name>test_splitsentence_title_is_null[\u5fae\u535a2]</name>
+      <attachments>
+        <attachment source="3f2fc805-6565-4c7a-aad1-2cb89311ff3d-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440117173" status="passed" stop="1563440117230">
+      <name>test_splitsentence_title_is_null[\u5fae\u535a3]</name>
+      <attachments>
+        <attachment source="fb77c421-98f4-4195-b9f8-a8664b4d8060-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440117232" status="passed" stop="1563440117291">
+      <name>test_splitsentence_title_is_null[\u5fae\u535a4]</name>
+      <attachments>
+        <attachment source="37831e04-143a-4fe0-8b71-a1c2d2fa32be-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440117292" status="passed" stop="1563440117350">
+      <name>test_splitsentence_title_is_null[\u8c46\u74e31]</name>
+      <attachments>
+        <attachment source="af9badee-4032-4dc6-9cda-7f6f0fb9f776-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440117352" status="passed" stop="1563440117409">
+      <name>test_splitsentence_title_is_null[\u8c46\u74e32]</name>
+      <attachments>
+        <attachment source="8ffe5a70-b932-4f51-9956-a2c0fd1485d9-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440117411" status="passed" stop="1563440117659">
+      <name>test_splitsentence_multi_article</name>
+      <attachments>
+        <attachment source="50f2bd8f-7405-47c9-85cd-af7e3537ff7e-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440117661" status="passed" stop="1563440117665">
+      <name>test_splitsentence_multi_article_miss_some_field[datalist0]</name>
+      <attachments>
+        <attachment source="bd46e4a7-1af0-4b2b-80fa-896eafd7baa2-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440117667" status="passed" stop="1563440117671">
+      <name>test_splitsentence_multi_article_miss_some_field[datalist1]</name>
+      <attachments>
+        <attachment source="7801235b-b9c2-43d6-89fc-441116f6c76e-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440117673" status="passed" stop="1563440117678">
+      <name>test_splitsentence_multi_article_miss_some_field[datalist2]</name>
+      <attachments>
+        <attachment source="15623b03-f666-4bdd-bc1d-9479d5e05a30-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440117680" status="passed" stop="1563440117684">
+      <name>test_splitsentence_multi_article_miss_some_field[datalist3]</name>
+      <attachments>
+        <attachment source="130045a5-c77e-43ac-9255-ed866ca16b95-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

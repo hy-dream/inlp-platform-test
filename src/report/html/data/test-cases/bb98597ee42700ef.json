@@ -1,0 +1,85 @@
+{
+  "uid" : "bb98597ee42700ef",
+  "name" : "test_mlableclassifier_title_not_null[\\u6301\\u7eed\\u5173\\u6ce8\\u6c5f\\u897f\\u707e\\u60c5 \\u4e2d\\u56fd\\u7ea2\\u5341\\u5b57\\u4f1a\\u5171\\u5411\\u707e\\u533a\\u8c03\\u62e8\\u8fd1190\\u4e07\\u5143\\u6551\\u707e\\u7269\\u8d44-\\u516c\\u76ca-\\u516c\\u76ca]",
+  "fullName" : "test_mlableclassifier.test_mlableclassifier_title_not_null[\\u6301\\u7eed\\u5173\\u6ce8\\u6c5f\\u897f\\u707e\\u60c5 \\u4e2d\\u56fd\\u7ea2\\u5341\\u5b57\\u4f1a\\u5171\\u5411\\u707e\\u533a\\u8c03\\u62e8\\u8fd1190\\u4e07\\u5143\\u6551\\u707e\\u7269\\u8d44-\\u516c\\u76ca-\\u516c\\u76ca]",
+  "historyId" : "37ed7b2692a334cf1dc05b51a4d42a37",
+  "time" : {
+    "start" : 1563440114659,
+    "stop" : 1563440114772,
+    "duration" : 113
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '公益' in ['文化', '法制']",
+  "statusTrace" : "title = '持续关注江西灾情 中国红十字会共向灾区调拨近190万元救灾物资', file = '公益', expected = '公益'\n\n    @pytest.mark.regression\n    @pytest.mark.parametrize(\"title,file,expected\", [\n     (\"斯里兰卡政治危机再度升级 总统宣布解散议会\",\"政治\",\"政治\"),\n        (\"美联储主席鲍威尔：将采取恰当措施维持经济持续扩张\", \"经济\", \"经济\"),\n        (\"北京通州发生一起交通事故 4死1伤 两车损坏\",\"事故\",\"事故\"),\n        (\"官方回应互联网“寒冬”:经济增长1%拉动200万人就业\",\"就业\",\"就业\"),\n        (\"奇普菲尔德的新作：柏林博物馆岛的“文化卫城”\",\"文化\",\"文化\"),\n        (\"夏季常吃六种豆 平安过“苦夏”\",\"生活\",\"生活\"),\n        (\"女超综述-王霜回归首秀破门 武汉主场2-1逆袭广东\",\"体育\",\"体育\"),\n        (\"新歌《如约》而至 刘宇宁在音乐中探索真我\",\"娱乐\",\"娱乐\"),\n        (\"伊朗无人机贴脸拍美国航母，美国航母是纸老虎吗?\",\"军事\",\"军事\"),\n        (\"王昌荣在全省加强诉源治理工作部署会上强调:深入推进诉源治理 源头减少诉讼增量 持续增强群众获得感幸福感安全感\",\"法制\",\"法制\"),\n        (\"学位证编号出错 毕业生离校半月后被短信召回\",\"教育\",\"教育\"),\n        (\"中国科研团队发布两款柔性芯片：厚度小于25微米\",\"科技\",\"科技\"),\n    (\"持续关注江西灾情 中国红十字会共向灾区调拨近190万元救灾物资\",\"公益\",\"公益\")\n        ])\n    def test_mlableclassifier_title_not_null(title,file,expected):\n        content = readcontent(file)\n        datalist = [{\"title\":title,\"content\": content}]\n    \n        message=send_mlableclassifier(datalist)\n        print(message[0])\n>       assert expected in message[0]\nE       AssertionError: assert '公益' in ['文化', '法制']\n\ntest_mlableclassifier.py:63: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '公益' in ['文化', '法制']",
+    "statusTrace" : "title = '持续关注江西灾情 中国红十字会共向灾区调拨近190万元救灾物资', file = '公益', expected = '公益'\n\n    @pytest.mark.regression\n    @pytest.mark.parametrize(\"title,file,expected\", [\n     (\"斯里兰卡政治危机再度升级 总统宣布解散议会\",\"政治\",\"政治\"),\n        (\"美联储主席鲍威尔：将采取恰当措施维持经济持续扩张\", \"经济\", \"经济\"),\n        (\"北京通州发生一起交通事故 4死1伤 两车损坏\",\"事故\",\"事故\"),\n        (\"官方回应互联网“寒冬”:经济增长1%拉动200万人就业\",\"就业\",\"就业\"),\n        (\"奇普菲尔德的新作：柏林博物馆岛的“文化卫城”\",\"文化\",\"文化\"),\n        (\"夏季常吃六种豆 平安过“苦夏”\",\"生活\",\"生活\"),\n        (\"女超综述-王霜回归首秀破门 武汉主场2-1逆袭广东\",\"体育\",\"体育\"),\n        (\"新歌《如约》而至 刘宇宁在音乐中探索真我\",\"娱乐\",\"娱乐\"),\n        (\"伊朗无人机贴脸拍美国航母，美国航母是纸老虎吗?\",\"军事\",\"军事\"),\n        (\"王昌荣在全省加强诉源治理工作部署会上强调:深入推进诉源治理 源头减少诉讼增量 持续增强群众获得感幸福感安全感\",\"法制\",\"法制\"),\n        (\"学位证编号出错 毕业生离校半月后被短信召回\",\"教育\",\"教育\"),\n        (\"中国科研团队发布两款柔性芯片：厚度小于25微米\",\"科技\",\"科技\"),\n    (\"持续关注江西灾情 中国红十字会共向灾区调拨近190万元救灾物资\",\"公益\",\"公益\")\n        ])\n    def test_mlableclassifier_title_not_null(title,file,expected):\n        content = readcontent(file)\n        datalist = [{\"title\":title,\"content\": content}]\n    \n        message=send_mlableclassifier(datalist)\n        print(message[0])\n>       assert expected in message[0]\nE       AssertionError: assert '公益' in ['文化', '法制']\n\ntest_mlableclassifier.py:63: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "297fc1359c36e64f",
+      "name" : "Captured log call",
+      "source" : "297fc1359c36e64f.txt",
+      "type" : "text/plain",
+      "size" : 201
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "hanying-apabi"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "764-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_mlableclassifier"
+  }, {
+    "name" : "testClass",
+    "value" : "test_mlableclassifier"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_mlableclassifier_title_not_null[\\u6301\\u7eed\\u5173\\u6ce8\\u6c5f\\u897f\\u707e\\u60c5 \\u4e2d\\u56fd\\u7ea2\\u5341\\u5b57\\u4f1a\\u5171\\u5411\\u707e\\u533a\\u8c03\\u62e8\\u8fd1190\\u4e07\\u5143\\u6551\\u707e\\u7269\\u8d44-\\u516c\\u76ca-\\u516c\\u76ca]"
+  }, {
+    "name" : "package",
+    "value" : "test_mlableclassifier"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "bb98597ee42700ef.json",
+  "parameterValues" : [ ]
+}

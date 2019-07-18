@@ -1,0 +1,77 @@
+{
+  "uid" : "57aba8535f057121",
+  "name" : "test_title_is_longer_than_100",
+  "fullName" : "test_valid_rule.test_title_is_longer_than_100",
+  "historyId" : "1f3f82fe2f06fac67910e4404556eda8",
+  "time" : {
+    "start" : 1563440119340,
+    "stop" : 1563440119365,
+    "duration" : 25
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "75d066673ce9f84",
+      "name" : "Captured log call",
+      "source" : "75d066673ce9f84.txt",
+      "type" : "text/plain",
+      "size" : 1409
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "hanying-apabi"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "764-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_valid_rule"
+  }, {
+    "name" : "testClass",
+    "value" : "test_valid_rule"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_title_is_longer_than_100"
+  }, {
+    "name" : "package",
+    "value" : "test_valid_rule"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "57aba8535f057121.json",
+  "parameterValues" : [ ]
+}

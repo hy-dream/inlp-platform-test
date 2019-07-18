@@ -1,0 +1,104 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1563440117686" stop="1563440118123">
+  <name>test_splitword</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1563440117686" status="passed" stop="1563440117864">
+      <name>test_splitword_title_not_null[\u6211\u662f\u6807\u9898-test2.txt]</name>
+      <attachments>
+        <attachment source="6cc3f8e2-b4f3-4068-88cd-26342bf94c8b-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440117866" status="passed" stop="1563440117929">
+      <name>test_splitword_title_is_null[test1.txt]</name>
+      <attachments>
+        <attachment source="4253805b-6717-4047-a78a-53531f3e1da7-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440117931" status="passed" stop="1563440118097">
+      <name>test_splitword_multi_article</name>
+      <attachments>
+        <attachment source="a5a83f0d-4e72-4dcd-a035-e037cc8e9ed3-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440118099" status="passed" stop="1563440118104">
+      <name>test_splitword_multi_article_miss_some_field[datalist0]</name>
+      <attachments>
+        <attachment source="937af2a3-8c63-4228-ac14-9ab1c37bb608-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440118106" status="passed" stop="1563440118111">
+      <name>test_splitword_multi_article_miss_some_field[datalist1]</name>
+      <attachments>
+        <attachment source="436134d6-5040-49ef-b1fb-095049b313e9-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440118112" status="passed" stop="1563440118117">
+      <name>test_splitword_multi_article_miss_some_field[datalist2]</name>
+      <attachments>
+        <attachment source="9e04cdf8-0c7f-4d9b-84dd-36d7a90e4b0b-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440118118" status="passed" stop="1563440118123">
+      <name>test_splitword_multi_article_miss_some_field[datalist3]</name>
+      <attachments>
+        <attachment source="6052daca-e398-478f-bf1a-e944ba4fd5a8-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

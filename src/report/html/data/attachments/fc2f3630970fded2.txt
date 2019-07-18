@@ -1,0 +1,4 @@
+test_summary.py            164 DEBUG    -----调试信息[debug]---test_summary_multi_article_miss_some_field--
+connectionpool.py          206 DEBUG    Starting new HTTP connection (1): 172.18.82.251:1240
+connectionpool.py          396 DEBUG    http://172.18.82.251:1240 "POST /summary?percentage=0.3&charLimit=600 HTTP/1.1" 200 None
+test_summary.py            168 DEBUG    -----调试信息[debug]----article 0 has no title

@@ -1,0 +1,77 @@
+{
+  "uid" : "f0c76f858c450119",
+  "name" : "test_ner_title_not_null[\\u65af\\u91cc\\u5170\\u5361\\u653f\\u6cbb\\u5371\\u673a\\u518d\\u5ea6\\u5347\\u7ea7 \\u603b\\u7edf\\u5ba3\\u5e03\\u89e3\\u6563\\u8bae\\u4f1a-bad_ner_2]",
+  "fullName" : "test_ner.test_ner_title_not_null[\\u65af\\u91cc\\u5170\\u5361\\u653f\\u6cbb\\u5371\\u673a\\u518d\\u5ea6\\u5347\\u7ea7 \\u603b\\u7edf\\u5ba3\\u5e03\\u89e3\\u6563\\u8bae\\u4f1a-bad_ner_2]",
+  "historyId" : "4c41d788c37a7aae469f7917d479cb25",
+  "time" : {
+    "start" : 1563440114968,
+    "stop" : 1563440115159,
+    "duration" : 191
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "732eb44cf60da87b",
+      "name" : "Captured log call",
+      "source" : "732eb44cf60da87b.txt",
+      "type" : "text/plain",
+      "size" : 188
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "hanying-apabi"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "764-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_ner"
+  }, {
+    "name" : "testClass",
+    "value" : "test_ner"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_ner_title_not_null[\\u65af\\u91cc\\u5170\\u5361\\u653f\\u6cbb\\u5371\\u673a\\u518d\\u5ea6\\u5347\\u7ea7 \\u603b\\u7edf\\u5ba3\\u5e03\\u89e3\\u6563\\u8bae\\u4f1a-bad_ner_2]"
+  }, {
+    "name" : "package",
+    "value" : "test_ner"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f0c76f858c450119.json",
+  "parameterValues" : [ ]
+}

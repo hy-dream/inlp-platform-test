@@ -1,0 +1,77 @@
+{
+  "uid" : "de2ae07b63913029",
+  "name" : "test_ner_multi_article",
+  "fullName" : "test_ner.test_ner_multi_article",
+  "historyId" : "844d054e8e5b8551106f4f84ab2611ee",
+  "time" : {
+    "start" : 1563440115224,
+    "stop" : 1563440115513,
+    "duration" : 289
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "97cc79c6332ac38c",
+      "name" : "Captured log call",
+      "source" : "97cc79c6332ac38c.txt",
+      "type" : "text/plain",
+      "size" : 188
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "hanying-apabi"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "764-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_ner"
+  }, {
+    "name" : "testClass",
+    "value" : "test_ner"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_ner_multi_article"
+  }, {
+    "name" : "package",
+    "value" : "test_ner"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "de2ae07b63913029.json",
+  "parameterValues" : [ ]
+}

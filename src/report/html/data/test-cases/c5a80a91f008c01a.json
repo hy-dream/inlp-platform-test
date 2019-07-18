@@ -1,0 +1,77 @@
+{
+  "uid" : "c5a80a91f008c01a",
+  "name" : "test_mlableclassifier_title_not_null[\\u738b\\u660c\\u8363\\u5728\\u5168\\u7701\\u52a0\\u5f3a\\u8bc9\\u6e90\\u6cbb\\u7406\\u5de5\\u4f5c\\u90e8\\u7f72\\u4f1a\\u4e0a\\u5f3a\\u8c03:\\u6df1\\u5165\\u63a8\\u8fdb\\u8bc9\\u6e90\\u6cbb\\u7406 \\u6e90\\u5934\\u51cf\\u5c11\\u8bc9\\u8bbc\\u589e\\u91cf \\u6301\\u7eed\\u589e\\u5f3a\\u7fa4\\u4f17\\u83b7\\u5f97\\u611f\\u5e78\\u798f\\u611f\\u5b89\\u5168\\u611f-\\u6cd5\\u5236-\\u6cd5\\u5236]",
+  "fullName" : "test_mlableclassifier.test_mlableclassifier_title_not_null[\\u738b\\u660c\\u8363\\u5728\\u5168\\u7701\\u52a0\\u5f3a\\u8bc9\\u6e90\\u6cbb\\u7406\\u5de5\\u4f5c\\u90e8\\u7f72\\u4f1a\\u4e0a\\u5f3a\\u8c03:\\u6df1\\u5165\\u63a8\\u8fdb\\u8bc9\\u6e90\\u6cbb\\u7406 \\u6e90\\u5934\\u51cf\\u5c11\\u8bc9\\u8bbc\\u589e\\u91cf \\u6301\\u7eed\\u589e\\u5f3a\\u7fa4\\u4f17\\u83b7\\u5f97\\u611f\\u5e78\\u798f\\u611f\\u5b89\\u5168\\u611f-\\u6cd5\\u5236-\\u6cd5\\u5236]",
+  "historyId" : "c4db1003a1d58b7f9370dcc4f985b05c",
+  "time" : {
+    "start" : 1563440114465,
+    "stop" : 1563440114528,
+    "duration" : 63
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2c23d8d41cb87e3d",
+      "name" : "Captured log call",
+      "source" : "2c23d8d41cb87e3d.txt",
+      "type" : "text/plain",
+      "size" : 201
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "hanying-apabi"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "764-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_mlableclassifier"
+  }, {
+    "name" : "testClass",
+    "value" : "test_mlableclassifier"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_mlableclassifier_title_not_null[\\u738b\\u660c\\u8363\\u5728\\u5168\\u7701\\u52a0\\u5f3a\\u8bc9\\u6e90\\u6cbb\\u7406\\u5de5\\u4f5c\\u90e8\\u7f72\\u4f1a\\u4e0a\\u5f3a\\u8c03:\\u6df1\\u5165\\u63a8\\u8fdb\\u8bc9\\u6e90\\u6cbb\\u7406 \\u6e90\\u5934\\u51cf\\u5c11\\u8bc9\\u8bbc\\u589e\\u91cf \\u6301\\u7eed\\u589e\\u5f3a\\u7fa4\\u4f17\\u83b7\\u5f97\\u611f\\u5e78\\u798f\\u611f\\u5b89\\u5168\\u611f-\\u6cd5\\u5236-\\u6cd5\\u5236]"
+  }, {
+    "name" : "package",
+    "value" : "test_mlableclassifier"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c5a80a91f008c01a.json",
+  "parameterValues" : [ ]
+}

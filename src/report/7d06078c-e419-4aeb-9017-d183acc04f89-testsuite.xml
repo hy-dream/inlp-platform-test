@@ -1,0 +1,303 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1563440113874" stop="1563440114966">
+  <name>test_mlableclassifier</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1563440113874" status="passed" stop="1563440113932">
+      <name>test_mlableclassifier_title_not_null[\u65af\u91cc\u5170\u5361\u653f\u6cbb\u5371\u673a\u518d\u5ea6\u5347\u7ea7 \u603b\u7edf\u5ba3\u5e03\u89e3\u6563\u8bae\u4f1a-\u653f\u6cbb-\u653f\u6cbb]</name>
+      <attachments>
+        <attachment source="6409e25a-0dc8-4ba0-b54a-16a255067170-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440113934" status="passed" stop="1563440113995">
+      <name>test_mlableclassifier_title_not_null[\u7f8e\u8054\u50a8\u4e3b\u5e2d\u9c8d\u5a01\u5c14\uff1a\u5c06\u91c7\u53d6\u6070\u5f53\u63aa\u65bd\u7ef4\u6301\u7ecf\u6d4e\u6301\u7eed\u6269\u5f20-\u7ecf\u6d4e-\u7ecf\u6d4e]</name>
+      <attachments>
+        <attachment source="975ab193-7edd-47b7-8a78-e4fbf87ef0e4-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440113999" status="passed" stop="1563440114063">
+      <name>test_mlableclassifier_title_not_null[\u5317\u4eac\u901a\u5dde\u53d1\u751f\u4e00\u8d77\u4ea4\u901a\u4e8b\u6545 4\u6b7b1\u4f24 \u4e24\u8f66\u635f\u574f-\u4e8b\u6545-\u4e8b\u6545]</name>
+      <attachments>
+        <attachment source="884609d3-cb4f-41f5-89c2-de565e852c49-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440114068" status="passed" stop="1563440114131">
+      <name>test_mlableclassifier_title_not_null[\u5b98\u65b9\u56de\u5e94\u4e92\u8054\u7f51\u201c\u5bd2\u51ac\u201d:\u7ecf\u6d4e\u589e\u957f1%\u62c9\u52a8200\u4e07\u4eba\u5c31\u4e1a-\u5c31\u4e1a-\u5c31\u4e1a]</name>
+      <attachments>
+        <attachment source="a4d06739-7079-4aa0-8d5b-42bf0bc838b5-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440114133" status="passed" stop="1563440114192">
+      <name>test_mlableclassifier_title_not_null[\u5947\u666e\u83f2\u5c14\u5fb7\u7684\u65b0\u4f5c\uff1a\u67cf\u6797\u535a\u7269\u9986\u5c9b\u7684\u201c\u6587\u5316\u536b\u57ce\u201d-\u6587\u5316-\u6587\u5316]</name>
+      <attachments>
+        <attachment source="f59e6db5-7f2b-4312-ac5c-be54eabad527-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440114195" status="passed" stop="1563440114258">
+      <name>test_mlableclassifier_title_not_null[\u590f\u5b63\u5e38\u5403\u516d\u79cd\u8c46 \u5e73\u5b89\u8fc7\u201c\u82e6\u590f\u201d-\u751f\u6d3b-\u751f\u6d3b]</name>
+      <attachments>
+        <attachment source="e9f80564-a864-4d19-8229-a507f54e05dd-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440114264" status="passed" stop="1563440114327">
+      <name>test_mlableclassifier_title_not_null[\u5973\u8d85\u7efc\u8ff0-\u738b\u971c\u56de\u5f52\u9996\u79c0\u7834\u95e8 \u6b66\u6c49\u4e3b\u573a2-1\u9006\u88ad\u5e7f\u4e1c-\u4f53\u80b2-\u4f53\u80b2]</name>
+      <attachments>
+        <attachment source="93c486f4-6406-430c-ac78-f0b35ac29f14-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440114332" status="passed" stop="1563440114395">
+      <name>test_mlableclassifier_title_not_null[\u65b0\u6b4c\u300a\u5982\u7ea6\u300b\u800c\u81f3 \u5218\u5b87\u5b81\u5728\u97f3\u4e50\u4e2d\u63a2\u7d22\u771f\u6211-\u5a31\u4e50-\u5a31\u4e50]</name>
+      <attachments>
+        <attachment source="a4e7fae0-076f-4757-8ac9-dd22bce4fd7f-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440114399" status="passed" stop="1563440114460">
+      <name>test_mlableclassifier_title_not_null[\u4f0a\u6717\u65e0\u4eba\u673a\u8d34\u8138\u62cd\u7f8e\u56fd\u822a\u6bcd\uff0c\u7f8e\u56fd\u822a\u6bcd\u662f\u7eb8\u8001\u864e\u5417?-\u519b\u4e8b-\u519b\u4e8b]</name>
+      <attachments>
+        <attachment source="fc5e734d-0e85-4e80-9d39-bb9badf2d219-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440114465" status="passed" stop="1563440114528">
+      <name>test_mlableclassifier_title_not_null[\u738b\u660c\u8363\u5728\u5168\u7701\u52a0\u5f3a\u8bc9\u6e90\u6cbb\u7406\u5de5\u4f5c\u90e8\u7f72\u4f1a\u4e0a\u5f3a\u8c03:\u6df1\u5165\u63a8\u8fdb\u8bc9\u6e90\u6cbb\u7406 \u6e90\u5934\u51cf\u5c11\u8bc9\u8bbc\u589e\u91cf \u6301\u7eed\u589e\u5f3a\u7fa4\u4f17\u83b7\u5f97\u611f\u5e78\u798f\u611f\u5b89\u5168\u611f-\u6cd5\u5236-\u6cd5\u5236]</name>
+      <attachments>
+        <attachment source="0decddaa-d90b-47ac-bc4d-608cea1d4f9f-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440114535" status="passed" stop="1563440114597">
+      <name>test_mlableclassifier_title_not_null[\u5b66\u4f4d\u8bc1\u7f16\u53f7\u51fa\u9519 \u6bd5\u4e1a\u751f\u79bb\u6821\u534a\u6708\u540e\u88ab\u77ed\u4fe1\u53ec\u56de-\u6559\u80b2-\u6559\u80b2]</name>
+      <attachments>
+        <attachment source="4065a319-30de-4e8b-9926-879d34390ceb-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440114599" status="passed" stop="1563440114657">
+      <name>test_mlableclassifier_title_not_null[\u4e2d\u56fd\u79d1\u7814\u56e2\u961f\u53d1\u5e03\u4e24\u6b3e\u67d4\u6027\u82af\u7247\uff1a\u539a\u5ea6\u5c0f\u4e8e25\u5fae\u7c73-\u79d1\u6280-\u79d1\u6280]</name>
+      <attachments>
+        <attachment source="2f48054a-8ee5-4a3f-9057-6d235edab8b8-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440114659" status="failed" stop="1563440114772">
+      <name>test_mlableclassifier_title_not_null[\u6301\u7eed\u5173\u6ce8\u6c5f\u897f\u707e\u60c5 \u4e2d\u56fd\u7ea2\u5341\u5b57\u4f1a\u5171\u5411\u707e\u533a\u8c03\u62e8\u8fd1190\u4e07\u5143\u6551\u707e\u7269\u8d44-\u516c\u76ca-\u516c\u76ca]</name>
+      <failure>
+        <message>AssertionError: assert '公益' in ['文化', '法制']</message>
+        <stack-trace>title = '持续关注江西灾情 中国红十字会共向灾区调拨近190万元救灾物资', file = '公益', expected = '公益'
+
+    @pytest.mark.regression
+    @pytest.mark.parametrize("title,file,expected", [
+     ("斯里兰卡政治危机再度升级 总统宣布解散议会","政治","政治"),
+        ("美联储主席鲍威尔：将采取恰当措施维持经济持续扩张", "经济", "经济"),
+        ("北京通州发生一起交通事故 4死1伤 两车损坏","事故","事故"),
+        ("官方回应互联网“寒冬”:经济增长1%拉动200万人就业","就业","就业"),
+        ("奇普菲尔德的新作：柏林博物馆岛的“文化卫城”","文化","文化"),
+        ("夏季常吃六种豆 平安过“苦夏”","生活","生活"),
+        ("女超综述-王霜回归首秀破门 武汉主场2-1逆袭广东","体育","体育"),
+        ("新歌《如约》而至 刘宇宁在音乐中探索真我","娱乐","娱乐"),
+        ("伊朗无人机贴脸拍美国航母，美国航母是纸老虎吗?","军事","军事"),
+        ("王昌荣在全省加强诉源治理工作部署会上强调:深入推进诉源治理 源头减少诉讼增量 持续增强群众获得感幸福感安全感","法制","法制"),
+        ("学位证编号出错 毕业生离校半月后被短信召回","教育","教育"),
+        ("中国科研团队发布两款柔性芯片：厚度小于25微米","科技","科技"),
+    ("持续关注江西灾情 中国红十字会共向灾区调拨近190万元救灾物资","公益","公益")
+        ])
+    def test_mlableclassifier_title_not_null(title,file,expected):
+        content = readcontent(file)
+        datalist = [{"title":title,"content": content}]
+    
+        message=send_mlableclassifier(datalist)
+        print(message[0])
+&gt;       assert expected in message[0]
+E       AssertionError: assert '公益' in ['文化', '法制']
+
+test_mlableclassifier.py:63: AssertionError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="2e433c9a-2e30-4a5c-b753-7cc3a0b07f2d-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440114775" status="passed" stop="1563440114831">
+      <name>test_mlableclassifier_title_is_null[\u4f53\u80b2-\u4f53\u80b2]</name>
+      <attachments>
+        <attachment source="e53082cf-5223-4630-b280-dad40eb92774-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440114834" status="passed" stop="1563440114940">
+      <name>test_mlableclassifier_multi_article</name>
+      <attachments>
+        <attachment source="7769e42f-f9d4-442c-a8ba-73c55a9dbc7b-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440114942" status="passed" stop="1563440114947">
+      <name>test_mlableclassifier_multi_article_miss_some_field[datalist0]</name>
+      <attachments>
+        <attachment source="d40f342f-80ff-4db9-a88d-d31a08fe597a-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440114949" status="passed" stop="1563440114954">
+      <name>test_mlableclassifier_multi_article_miss_some_field[datalist1]</name>
+      <attachments>
+        <attachment source="fdf5f1a0-1e0c-42ec-8681-1f7e54f4a6ec-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440114956" status="passed" stop="1563440114960">
+      <name>test_mlableclassifier_multi_article_miss_some_field[datalist2]</name>
+      <attachments>
+        <attachment source="01ef4a29-fc72-47ad-91ed-a8a6fbd3b525-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563440114962" status="passed" stop="1563440114966">
+      <name>test_mlableclassifier_multi_article_miss_some_field[datalist3]</name>
+      <attachments>
+        <attachment source="b29f7241-ef96-4ae7-a11e-943cf0964a95-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="764-MainThread"/>
+        <label name="host" value="hanying-apabi"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

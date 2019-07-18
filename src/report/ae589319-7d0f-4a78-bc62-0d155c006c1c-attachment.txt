@@ -1,0 +1,3 @@
+test_sentiment.py           77 DEBUG    -----调试信息[debug]---test_summary_multi_article--
+connectionpool.py          206 DEBUG    Starting new HTTP connection (1): 172.18.82.251:1240
+connectionpool.py          396 DEBUG    http://172.18.82.251:1240 "POST /sentiment?domain=comment HTTP/1.1" 200 None

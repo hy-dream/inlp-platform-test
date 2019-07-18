@@ -1,0 +1,8 @@
+connectionpool.py          206 DEBUG    Starting new HTTP connection (1): 172.18.82.251:1240
+connectionpool.py          396 DEBUG    http://172.18.82.251:1240 "POST /splitsentence HTTP/1.1" 200 None
+connectionpool.py          206 DEBUG    Starting new HTTP connection (1): 172.18.82.251:1240
+connectionpool.py          396 DEBUG    http://172.18.82.251:1240 "POST /postag HTTP/1.1" 200 None
+connectionpool.py          206 DEBUG    Starting new HTTP connection (1): 172.18.82.251:1240
+connectionpool.py          396 DEBUG    http://172.18.82.251:1240 "POST /NER HTTP/1.1" 200 None
+connectionpool.py          206 DEBUG    Starting new HTTP connection (1): 172.18.82.251:1240
+connectionpool.py          396 DEBUG    http://172.18.82.251:1240 "POST /keyphrase HTTP/1.1" 200 None

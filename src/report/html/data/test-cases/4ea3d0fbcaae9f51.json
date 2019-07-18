@@ -1,0 +1,77 @@
+{
+  "uid" : "4ea3d0fbcaae9f51",
+  "name" : "test_splitsentence_title_not_null[\\u8861\\u6c34\\u4e2d\\u5b66:\\u6709\\u5b66\\u6821\\u5192\\u7528\\u8861\\u4e2d\\u540d\\u4e49-test1.txt]",
+  "fullName" : "test_splitsentence.test_splitsentence_title_not_null[\\u8861\\u6c34\\u4e2d\\u5b66:\\u6709\\u5b66\\u6821\\u5192\\u7528\\u8861\\u4e2d\\u540d\\u4e49-test1.txt]",
+  "historyId" : "166632d239b0f444be606107dae0d720",
+  "time" : {
+    "start" : 1563440116829,
+    "stop" : 1563440116888,
+    "duration" : 59
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a12ec3677c423fc3",
+      "name" : "Captured log call",
+      "source" : "a12ec3677c423fc3.txt",
+      "type" : "text/plain",
+      "size" : 198
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "hanying-apabi"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "764-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_splitsentence"
+  }, {
+    "name" : "testClass",
+    "value" : "test_splitsentence"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_splitsentence_title_not_null[\\u8861\\u6c34\\u4e2d\\u5b66:\\u6709\\u5b66\\u6821\\u5192\\u7528\\u8861\\u4e2d\\u540d\\u4e49-test1.txt]"
+  }, {
+    "name" : "package",
+    "value" : "test_splitsentence"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4ea3d0fbcaae9f51.json",
+  "parameterValues" : [ ]
+}

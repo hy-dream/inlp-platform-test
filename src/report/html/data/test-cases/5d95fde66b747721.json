@@ -1,0 +1,77 @@
+{
+  "uid" : "5d95fde66b747721",
+  "name" : "test_mlableclassifier_title_not_null[\\u5b66\\u4f4d\\u8bc1\\u7f16\\u53f7\\u51fa\\u9519 \\u6bd5\\u4e1a\\u751f\\u79bb\\u6821\\u534a\\u6708\\u540e\\u88ab\\u77ed\\u4fe1\\u53ec\\u56de-\\u6559\\u80b2-\\u6559\\u80b2]",
+  "fullName" : "test_mlableclassifier.test_mlableclassifier_title_not_null[\\u5b66\\u4f4d\\u8bc1\\u7f16\\u53f7\\u51fa\\u9519 \\u6bd5\\u4e1a\\u751f\\u79bb\\u6821\\u534a\\u6708\\u540e\\u88ab\\u77ed\\u4fe1\\u53ec\\u56de-\\u6559\\u80b2-\\u6559\\u80b2]",
+  "historyId" : "7b5deea82c36977b9cf1e70a16a0558a",
+  "time" : {
+    "start" : 1563440114535,
+    "stop" : 1563440114597,
+    "duration" : 62
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "698c46a5c11c9096",
+      "name" : "Captured log call",
+      "source" : "698c46a5c11c9096.txt",
+      "type" : "text/plain",
+      "size" : 201
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "hanying-apabi"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "764-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_mlableclassifier"
+  }, {
+    "name" : "testClass",
+    "value" : "test_mlableclassifier"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_mlableclassifier_title_not_null[\\u5b66\\u4f4d\\u8bc1\\u7f16\\u53f7\\u51fa\\u9519 \\u6bd5\\u4e1a\\u751f\\u79bb\\u6821\\u534a\\u6708\\u540e\\u88ab\\u77ed\\u4fe1\\u53ec\\u56de-\\u6559\\u80b2-\\u6559\\u80b2]"
+  }, {
+    "name" : "package",
+    "value" : "test_mlableclassifier"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5d95fde66b747721.json",
+  "parameterValues" : [ ]
+}

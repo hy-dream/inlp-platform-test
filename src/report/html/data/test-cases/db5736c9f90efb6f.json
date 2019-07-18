@@ -1,0 +1,77 @@
+{
+  "uid" : "db5736c9f90efb6f",
+  "name" : "test_splitword_title_not_null[\\u6211\\u662f\\u6807\\u9898-test2.txt]",
+  "fullName" : "test_splitword.test_splitword_title_not_null[\\u6211\\u662f\\u6807\\u9898-test2.txt]",
+  "historyId" : "1172b50c22d850c9380df7722dab56d5",
+  "time" : {
+    "start" : 1563440117686,
+    "stop" : 1563440117864,
+    "duration" : 178
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1e53470c0261b1d7",
+      "name" : "Captured log call",
+      "source" : "1e53470c0261b1d7.txt",
+      "type" : "text/plain",
+      "size" : 194
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "hanying-apabi"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "764-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_splitword"
+  }, {
+    "name" : "testClass",
+    "value" : "test_splitword"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_splitword_title_not_null[\\u6211\\u662f\\u6807\\u9898-test2.txt]"
+  }, {
+    "name" : "package",
+    "value" : "test_splitword"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "db5736c9f90efb6f.json",
+  "parameterValues" : [ ]
+}

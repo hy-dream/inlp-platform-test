@@ -1,0 +1,2 @@
+connectionpool.py          206 DEBUG    Starting new HTTP connection (1): 172.18.82.251:1240
+connectionpool.py          396 DEBUG    http://172.18.82.251:1240 "POST /summary?percentage=0.5&charLimit=800 HTTP/1.1" 200 None

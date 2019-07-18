@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '公益' in ['文化', '法制']",
+      "children" : [ {
+        "name" : "test_mlableclassifier_title_not_null[\\u6301\\u7eed\\u5173\\u6ce8\\u6c5f\\u897f\\u707e\\u60c5 \\u4e2d\\u56fd\\u7ea2\\u5341\\u5b57\\u4f1a\\u5171\\u5411\\u707e\\u533a\\u8c03\\u62e8\\u8fd1190\\u4e07\\u5143\\u6551\\u707e\\u7269\\u8d44-\\u516c\\u76ca-\\u516c\\u76ca]",
+        "uid" : "bb98597ee42700ef",
+        "parentUid" : "ec3814817f3d7d52f33e79df3a7ef017",
+        "status" : "failed",
+        "time" : {
+          "start" : 1563440114659,
+          "stop" : 1563440114772,
+          "duration" : 113
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ec3814817f3d7d52f33e79df3a7ef017"
+    }, {
+      "name" : "AssertionError: assert ['我的英文'] == 'article 1 content is not Chinese'",
+      "children" : [ {
+        "name" : "test_content_is_not_Chinese",
+        "uid" : "b2e07349c4bcd235",
+        "parentUid" : "4c90cf5e21ca7acc2c8203696ec393e5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1563440119366,
+          "stop" : 1563440119442,
+          "duration" : 76
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4c90cf5e21ca7acc2c8203696ec393e5"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,85 @@
+{
+  "uid" : "b2e07349c4bcd235",
+  "name" : "test_content_is_not_Chinese",
+  "fullName" : "test_valid_rule.test_content_is_not_Chinese",
+  "historyId" : "c61c04ed99acbbcad9f4715fd97f25",
+  "time" : {
+    "start" : 1563440119366,
+    "stop" : 1563440119442,
+    "duration" : 76
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert ['我的英文'] == 'article 1 content is not Chinese'",
+  "statusTrace" : "@pytest.mark.regression\n    def test_content_is_not_Chinese():\n        expected='article 1 content is not Chinese'\n        content=\"Do you want a friend whom you could tell everything to, like your deepest feelings and thoughts? 我的英文Or are you afraid that your friend would laugh at you, or would not understand what you are going through? Anne Frank wanted the first kind, so she made her diary her best friend.Annie lived in Amsterdam in the Netherlands during World War II. Her family was Jewish so they had to hide or they would be caught by the German Nazis. She and her family hid away for nearly twenty-five months before they were discovered. During that time the only true friend was her diary. She said, I don't want to set down a series of facts in a diary as most people do, but I want this diary itself to be my best friend, and I shall call my friend Kitty. Now read how she felt after being in the hiding place since July 1942.\"\n        datalist = [{\"title\": \"\", \"content\": content}]\n    \n        # 摘要接口\n        myparms = {\"percentage\": 0.3, \"charLimit\": 1000}\n        m1 = test_summary.send_summary(myparms, datalist)\n>       assert m1 == expected\nE       AssertionError: assert ['我的英文'] == 'article 1 content is not Chinese'\n\ntest_valid_rule.py:451: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert ['我的英文'] == 'article 1 content is not Chinese'",
+    "statusTrace" : "@pytest.mark.regression\n    def test_content_is_not_Chinese():\n        expected='article 1 content is not Chinese'\n        content=\"Do you want a friend whom you could tell everything to, like your deepest feelings and thoughts? 我的英文Or are you afraid that your friend would laugh at you, or would not understand what you are going through? Anne Frank wanted the first kind, so she made her diary her best friend.Annie lived in Amsterdam in the Netherlands during World War II. Her family was Jewish so they had to hide or they would be caught by the German Nazis. She and her family hid away for nearly twenty-five months before they were discovered. During that time the only true friend was her diary. She said, I don't want to set down a series of facts in a diary as most people do, but I want this diary itself to be my best friend, and I shall call my friend Kitty. Now read how she felt after being in the hiding place since July 1942.\"\n        datalist = [{\"title\": \"\", \"content\": content}]\n    \n        # 摘要接口\n        myparms = {\"percentage\": 0.3, \"charLimit\": 1000}\n        m1 = test_summary.send_summary(myparms, datalist)\n>       assert m1 == expected\nE       AssertionError: assert ['我的英文'] == 'article 1 content is not Chinese'\n\ntest_valid_rule.py:451: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "80cafdedfd5d4163",
+      "name" : "Captured log call",
+      "source" : "80cafdedfd5d4163.txt",
+      "type" : "text/plain",
+      "size" : 222
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "hanying-apabi"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "764-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_valid_rule"
+  }, {
+    "name" : "testClass",
+    "value" : "test_valid_rule"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_content_is_not_Chinese"
+  }, {
+    "name" : "package",
+    "value" : "test_valid_rule"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b2e07349c4bcd235.json",
+  "parameterValues" : [ ]
+}
