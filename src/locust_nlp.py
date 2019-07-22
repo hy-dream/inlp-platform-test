@@ -29,70 +29,70 @@ class UserBehavior(TaskSet):
         print('task setup')
 
 
-    @task(1)
+    # @task(1000)
     def getKeyword(self):
         # mydata = json.dumps(datalist)
         # data = mydata.encode('utf-8')
         data=self.locust.data
         with  self.client.post("keyWord",data, catch_response=True) as response:
-            if response.status_code == 200:  # 对http响应码是否200进行判断
+            if response.status_code == 200 and json.loads(response.text) != "向MASTER_TO_SLAVE_QUEUE放入数据失败":  # 对http响应码是否200进行判断
                 response.success()
             else:
                 response.failure("keyword[Failed!]")
-    @task(1)
+    # @task(1)
     def getNER(self):
         # mydata = json.dumps(datalist)
         # data = mydata.encode('utf-8')
         data = self.locust.data
         with  self.client.post("ner", data, catch_response=True) as response:
-            if response.status_code == 200:  # 对http响应码是否200进行判断
+            if response.status_code == 200 and json.loads(response.text) != "向MASTER_TO_SLAVE_QUEUE放入数据失败":  # 对http响应码是否200进行判断
                 response.success()
             else:
                 response.failure("ner[Failed!]")
 
-    @task(1)
+    # @task(1)
     def getSummary(self):
         data = self.locust.data
         with  self.client.post("summary", data, catch_response=True) as response:
-            if response.status_code == 200:  # 对http响应码是否200进行判断
+            if response.status_code == 200 and json.loads(response.text) != "向MASTER_TO_SLAVE_QUEUE放入数据失败":  # 对http响应码是否200进行判断
                 response.success()
             else:
                 response.failure("summary[Failed!]")
 
-    @task(1000)
+    # @task(1)
     def getSplitword(self):
         data = self.locust.data
         with  self.client.post("splitWord", data, catch_response=True) as response:
-            if response.status_code == 200:  # 对http响应码是否200进行判断
+            if response.status_code == 200 and json.loads(response.text) != "向MASTER_TO_SLAVE_QUEUE放入数据失败":  # 对http响应码是否200进行判断
                 response.success()
             else:
                 response.failure("splitword[Failed!]")
 
-    @task(1)
+    # @task(1)
     def getSplitsentence(self):
         data = self.locust.data
         with  self.client.post("splitSentence", data, catch_response=True) as response:
-            if response.status_code == 200:  # 对http响应码是否200进行判断
+            if response.status_code == 200 and json.loads(response.text) != "向MASTER_TO_SLAVE_QUEUE放入数据失败":  # 对http响应码是否200进行判断
                 response.success()
             else:
                 response.failure("splitsentence[Failed!]")
 
 
-    @task(1)
+    # @task(1)
     def getsentiment(self):
         data = self.locust.data
         with  self.client.post("sentiment", data, catch_response=True) as response:
-            if response.status_code == 200:  # 对http响应码是否200进行判断
+            if response.status_code == 200 and json.loads(response.text) != "向MASTER_TO_SLAVE_QUEUE放入数据失败":  # 对http响应码是否200进行判断
                 response.success()
             else:
                 response.failure("sentiment情感分析[Failed!]")
 
 
-    @task(1)
+    # @task(1)
     def getPostag(self):
         data = self.locust.data
         with  self.client.post("posTag", data, catch_response=True) as response:
-            if response.status_code == 200:  # 对http响应码是否200进行判断
+            if response.status_code == 200 and json.loads(response.text) != "向MASTER_TO_SLAVE_QUEUE放入数据失败":  # 对http响应码是否200进行判断
                 response.success()
             else:
                 response.failure("postag词性[Failed!]")
@@ -101,7 +101,7 @@ class UserBehavior(TaskSet):
     def getmlableClassifier(self):
         data = self.locust.data
         with  self.client.post("mlableClassifier", data, catch_response=True) as response:
-            if response.status_code == 200:  # 对http响应码是否200进行判断
+            if response.status_code == 200 and json.loads(response.text) != "向MASTER_TO_SLAVE_QUEUE放入数据失败":  # 对http响应码是否200进行判断
                 response.success()
             else:
                 response.failure("mlableClassifier多分类[Failed!]")
@@ -110,7 +110,7 @@ class WebSite(HttpLocust):
 
     data = json.dumps(readcontent()).encode('utf-8')
     task_set = UserBehavior
-    min_wait = 2000
+    min_wait = 15000
 
-    max_wait = 5000
+    max_wait = 18000
 

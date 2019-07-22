@@ -3,7 +3,7 @@ import requests
 import json
 import  os,shutil
 import logging as log
-
+import configparser
 
 log.basicConfig(level=log.DEBUG,
                 format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -12,7 +12,9 @@ log.basicConfig(level=log.DEBUG,
 
 parent = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 
-baseURL = 'http://172.18.82.251:1240/'
+cp=configparser.RawConfigParser()
+cp.read("nlp.conf")
+baseURL=cp.get("db","baseURL")
 myurl = baseURL + 'ner'
 myheaders = {'content-type': 'application/json'}
 
