@@ -13,8 +13,9 @@ log.basicConfig(level=log.DEBUG,
 parent = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 
 cp=configparser.RawConfigParser()
-cp.read("nlp.conf")
-baseURL=cp.get("db","baseURL")
+confPath = os.path.join(parent, "data","nlp.conf")
+cp.read(confPath)
+baseURL=cp.get("db","baseurl")
 myurl = baseURL + 'sentiment'
 myheaders = {'content-type': 'application/json'}
 

@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a534f8ed-3c23-483e-abbe-32c3b4373dc0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/locust_nlp_custom.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nlp.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testconf.py" afterDir="false" />
+    <list default="true" id="a534f8ed-3c23-483e-abbe-32c3b4373dc0" name="Default Changelist" comment="调整代码，参数化，读取配置文件">
+      <change afterPath="$PROJECT_DIR$/data/nlp.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/custom/output/nuilt_result" beforeDir="false" afterPath="$PROJECT_DIR$/data/custom/output/nuilt_result" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/keyword/output/multi_article.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/keyword/output/multi_article.txt" afterDir="false" />
@@ -41,7 +39,7 @@
       <change beforePath="$PROJECT_DIR$/data/summary/output/multi_article.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/summary/output/multi_article.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/summary/output/percentage_valid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/summary/output/percentage_valid.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/summary/output/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/summary/output/result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/locust_nlp.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/locust_nlp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nlp.conf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test_custom.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_custom.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test_keyword.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_keyword.py" afterDir="false" />
@@ -51,6 +49,8 @@
       <change beforePath="$PROJECT_DIR$/src/test_sentiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_sentiment.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test_splitsentence.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_splitsentence.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test_splitword.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_splitword.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_summary.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_summary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testconf.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/testconf.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,43 +61,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test_sentiment.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test_splitsentence.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" selection-start-line="14" selection-end-line="16" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test_splitword.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test_keyword.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" selection-start-line="14" selection-end-line="16" selection-end-column="29" />
+            <state relative-caret-position="323">
+              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -108,8 +75,56 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test_mlableclassifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" selection-start-line="14" selection-end-line="16" selection-end-column="30" />
+            <state relative-caret-position="323">
+              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test_sentiment.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test_splitsentence.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test_splitword.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test_summary.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -120,35 +135,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test_custom.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nlp.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="7" selection-start-line="1" selection-end-line="1" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testconf.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="6" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test_postag.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="15" selection-start-line="15" selection-end-line="17" selection-end-column="30" />
+            <state relative-caret-position="361">
+              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -157,10 +145,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test_postag.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test_valid_rule.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test_ner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="342">
+              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -194,7 +209,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/data/mlableclassifier/input/就业" />
         <option value="$PROJECT_DIR$/data/mlableclassifier/input/万象" />
         <option value="$PROJECT_DIR$/data/mlableclassifier/input/文化" />
         <option value="$PROJECT_DIR$/data/mlableclassifier/input/生活" />
@@ -230,28 +244,30 @@
         <option value="$PROJECT_DIR$/data/locuts/paper/test10" />
         <option value="$PROJECT_DIR$/src/test1.py" />
         <option value="$PROJECT_DIR$/src/test_valid_rule.py" />
-        <option value="$PROJECT_DIR$/src/test_summary.py" />
         <option value="$PROJECT_DIR$/src/report/locus_nlp_custom.py" />
         <option value="$PROJECT_DIR$/src/locust_nlp.py" />
         <option value="$PROJECT_DIR$/src/locust_nlp_custom.py" />
         <option value="$PROJECT_DIR$/data/conf" />
         <option value="$PROJECT_DIR$/data/nlp.conf" />
+        <option value="$PROJECT_DIR$/src/nlp.conf" />
         <option value="$PROJECT_DIR$/src/testconf.py" />
+        <option value="$PROJECT_DIR$/src/test_ner.py" />
         <option value="$PROJECT_DIR$/src/test_custom.py" />
         <option value="$PROJECT_DIR$/src/test_keyword.py" />
         <option value="$PROJECT_DIR$/src/test_mlableclassifier.py" />
-        <option value="$PROJECT_DIR$/src/test_ner.py" />
         <option value="$PROJECT_DIR$/src/test_postag.py" />
         <option value="$PROJECT_DIR$/src/test_sentiment.py" />
         <option value="$PROJECT_DIR$/src/test_splitsentence.py" />
         <option value="$PROJECT_DIR$/src/test_splitword.py" />
+        <option value="$PROJECT_DIR$/src/test_summary.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="248" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="877" />
+    <option name="y" value="22" />
     <option name="width" value="1400" />
-    <option name="height" value="1047" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -275,12 +291,6 @@
             <path>
               <item name="inlp-platform-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="inlp-platform-test" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="locust" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="inlp-platform-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="inlp-platform-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -294,17 +304,18 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/data/keyword/input" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\hanying.apabi\PycharmProjects\inlp-platform-test\src" />
-      <recent name="C:\Users\hanying.apabi\PycharmProjects\inlp-platform-test\data\ner\input" />
-      <recent name="C:\Users\hanying.apabi\PycharmProjects\inlp-platform-test" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hanying.apabi\PycharmProjects\inlp-platform-test\data\keyword\input" />
       <recent name="C:\Users\hanying.apabi\PycharmProjects\inlp-platform-test\data\custom\input" />
       <recent name="C:\Users\hanying.apabi\PycharmProjects\inlp-platform-test\data\ner\input" />
       <recent name="C:\Users\hanying.apabi\PycharmProjects\inlp-platform-test\data\postag\input" />
       <recent name="C:\Users\hanying.apabi\PycharmProjects\inlp-platform-test\data\postag" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hanying.apabi\PycharmProjects\inlp-platform-test\data" />
+      <recent name="C:\Users\hanying.apabi\PycharmProjects\inlp-platform-test\src" />
+      <recent name="C:\Users\hanying.apabi\PycharmProjects\inlp-platform-test\data\ner\input" />
+      <recent name="C:\Users\hanying.apabi\PycharmProjects\inlp-platform-test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -319,7 +330,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.testconf">
+  <component name="RunManager" selected="Python.test_ner">
     <configuration name="locust_nlp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="inlp-platform-test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -383,7 +394,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_valid_rule" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_ner" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="inlp-platform-test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -395,7 +406,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test_valid_rule.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test_ner.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -427,11 +438,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_ner" />
         <item itemvalue="Python.testconf" />
         <item itemvalue="Python.test_keyword" />
         <item itemvalue="Python.locust_nlp" />
         <item itemvalue="Python.test1" />
-        <item itemvalue="Python.test_valid_rule" />
       </list>
     </recent_temporary>
   </component>
@@ -446,6 +457,14 @@
       <option name="presentableId" value="Default" />
       <updated>1562824044641</updated>
     </task>
+    <task id="LOCAL-00001" summary="调整代码，参数化，读取配置文件">
+      <created>1563783348357</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563783348357</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -458,21 +477,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="248" y="142" width="1400" height="1100" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2767988" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19863014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.34561214" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22153209" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22125813" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.28985506" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.28633407" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -499,23 +518,22 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="调整代码，参数化，读取配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整代码，参数化，读取配置文件" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/test_summary.py</url>
-          <line>61</line>
+          <line>65</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/keyword/output/multi_article.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2166" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/keyword/input/微博1">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -629,16 +647,6 @@
         <state relative-caret-position="-56864" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test_summary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="170" lean-forward="true" selection-start-line="170" selection-end-line="170" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test1.py" />
     <entry file="file://$PROJECT_DIR$/src/test" />
     <entry file="file://$PROJECT_DIR$/src/report/locus_nlp_custom.py" />
@@ -666,38 +674,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test_valid_rule.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11077">
-          <caret line="593" column="42" selection-start-line="593" selection-start-column="42" selection-end-line="593" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nlp.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="7" selection-start-line="1" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/data/locust/request_body">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/testconf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" selection-end-column="29" />
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/nlp.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test_custom.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="19" />
+        <state relative-caret-position="361">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test_keyword.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" selection-start-line="14" selection-end-line="16" selection-end-column="29" />
+        <state relative-caret-position="323">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -706,8 +713,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test_mlableclassifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" selection-start-line="14" selection-end-line="16" selection-end-column="30" />
+        <state relative-caret-position="323">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -716,15 +723,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test_ner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="342">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test_postag.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="15" selection-start-line="15" selection-end-line="17" selection-end-column="30" />
+        <state relative-caret-position="285">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -733,15 +743,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test_sentiment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="323">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test_splitsentence.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" selection-start-line="14" selection-end-line="16" selection-end-column="30" />
+        <state relative-caret-position="323">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -750,10 +763,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test_splitword.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        <state relative-caret-position="323">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test_summary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test_valid_rule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
